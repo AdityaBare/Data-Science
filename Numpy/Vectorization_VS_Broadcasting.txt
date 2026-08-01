@@ -1,0 +1,9 @@
+1. Vectorization: 
+    Performs operations on entire arrays.
+    Works on Arrays.
+    Faster computation.
+
+2. Broadcasting:
+    Makes arrays of different shapes compatible.
+    Works on Arrays of different but compatible shapes
+    Allows operations between different-sized arrays.
