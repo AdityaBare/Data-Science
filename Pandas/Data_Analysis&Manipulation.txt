@@ -37,3 +37,9 @@
 6. DataFrame:
     - DataFrame is two-dimensional labeled data structure in Pandas, similar to table in a database , an excel , spreadsheet ,or a SQL table.
     - It consists of row and columns. 
+
+7. Data Exploration:
+    - Understand the data set.
+    - Identify the problem(in dataset)
+    - Plan next step.
+
