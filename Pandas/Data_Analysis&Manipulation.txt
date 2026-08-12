@@ -43,3 +43,24 @@
     - Identify the problem(in dataset)
     - Plan next step.
 
+8. Inplace 
+    - inplace = True -> change original DataFrame.
+    - inplace = False -> return new DataFrame.
+
+9. Missing Data
+    - NaN (Not a number)
+    - None (for object data types)
+
+10. Interpolation
+    - Interpolation means filling missing (NaN) values by estimating a value between known values.
+    - Why Interpolation ?
+        1. Prevent data integrity.
+        2. Smooth treads.
+        3. Avoid data loss.
+    - pros
+        1. work with timer series data.
+        2. work with numeric data with trends.
+        3. avoid droping rows.
+    - cons
+        1. not work with categorical data.
+        2. it assumes a pridictable pattern which might not exists.
