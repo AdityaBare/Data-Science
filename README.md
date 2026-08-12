@@ -8,7 +8,6 @@
                 1. Sorting items into categories.
                 2. Correcting missing or wrong grades.
 
-
 2. Data Analysis 
     DEFINITION :- Extracting patterns , trends , and insights from data to solve real world probleam.
     GOAL :- To answer question or identify trends using the data.
@@ -37,3 +36,30 @@
 6. DataFrame:
     - DataFrame is two-dimensional labeled data structure in Pandas, similar to table in a database , an excel , spreadsheet ,or a SQL table.
     - It consists of row and columns. 
+
+7. Data Exploration:
+    - Understand the data set.
+    - Identify the problem(in dataset)
+    - Plan next step.
+
+8. Inplace 
+    - inplace = True -> change original DataFrame.
+    - inplace = False -> return new DataFrame.
+
+9. Missing Data
+    - NaN (Not a number)
+    - None (for object data types)
+
+10. Interpolation
+    - Interpolation means filling missing (NaN) values by estimating a value between known values.
+    - Why Interpolation ?
+        1. Prevent data integrity.
+        2. Smooth treads.
+        3. Avoid data loss.
+    - pros
+        1. work with timer series data.
+        2. work with numeric data with trends.
+        3. avoid droping rows.
+    - cons
+        1. not work with categorical data.
+        2. it assumes a pridictable pattern which might not exists.
