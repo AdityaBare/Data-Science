@@ -1,6 +1,7 @@
 # Data-Science
 
 ** Pandas **
+
 1. Data Manipulation
     DEFINITION :- Changing , organizing or preparing data to make it useful and easier to understand.
     GOAL :- To clean , transform and structure raw data for better usability.
@@ -63,3 +64,8 @@
     - cons
         1. not work with categorical data.
         2. it assumes a pridictable pattern which might not exists.
+
+
+** Mathplotlib**
+
+Matplotlib is a Python library used to visualize data using graphs and charts.

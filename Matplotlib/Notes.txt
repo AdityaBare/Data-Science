@@ -1,0 +1,85 @@
+Matplotlib is a Python library used to visualize data using graphs and charts.
+
+1. Used In
+    - Data Science
+    - Business/Marketing
+    - Healthcare
+    - Finance
+    - Education
+    - Goverment Policy
+
+2. Python Libraries for Visualization
+    - Matplotlib
+    - Seaborn
+    - Plotly
+    - Pandas(plot)
+
+3. Top 5 Advantages of Data Visualization
+    - Saves Times
+    - Easy Communication
+    - Spot Trends and patterns
+    - Better Decision Making
+    - Handles Big Data Well
+
+4. Why Visualization ?
+    - Human brain  process images 60000 time faster than text. 
+    - Visualization can lie (When bad scaling).
+    - Visualization process prevents waisting time on bad model.
+    - Brain can hold only 7 pieces of information at once.
+    - Improve desigan makin ability.
+
+5. Key Terms Should Know
+    - Data Points : (Single pair of point).
+    - X-axis/Y-axis : Horizontal Data/ Vertical Data.
+    - Figure : Entire canves(window) where all graps lies.
+    - Axes : Graph box (Plotting Area).
+    - Plot : Actual data on graph.
+    - Marker : Symbol to represent Data Point.
+    - Line Style : Connects they Data Points.
+    - Color : Color of line , bar or marker.
+    - Legend : tells as what each line , point, or graph represents.
+    - Label : Use to tell x-axis and y-axis.
+    - Title : Use to give title to Graph.
+    - Grid : Adds Horizontal and Vertical lines on graph.
+    - Function : Performs specifc task (Belong's to object).
+    - Method : 
+    - Parameters : Information given to function to perform task.
+    - Keyword Arguments :used in function , like attributes , work like -> keyword = value , eg :- (color:'Red').
+    - Object-Oriented API : Advance way to plot.
+    - DPI : Dots Per Inch
+    - Backend : not like node or express , it use save and plot the graph.
+
+6. Matplotlib object oriented API
+    - The Object-Oriented API in Matplotlib means you work directly with objects such as Figure and Axes, instead of relying on global functions like plt.plot().   
+    - Working on big project
+    - Controled by you , on which project you want to work.
+
+             plt vs ax
+
+       Pyplot	       Object-Oriented
+        plt.plot()	    ax.plot()
+        plt.title()	    ax.set_title()
+        plt.xlabel()	ax.set_xlabel()
+        plt.ylabel()	ax.set_ylabel()
+        plt.legend()	ax.legend()
+        plt.grid()	    ax.grid()
+
+7. PLot and their use.
+
+    | Plot             | Used for                                         |
+    | ---------------- | ------------------------------------------------ |
+    | **Bar chart**    | Compare categories                               |
+    | **Histogram**    | Distribution/frequency of one numerical variable |
+    | **Scatter plot** | Relationship between two numerical variables     |
+    | **Line plot**    | Change/trend over time                           |
+
+
+8. Essential Subplot functions in Matplotlib
+    - Comparing multiple charts.
+    - Space Efficient
+    - Quickly analyze related dataset together.
+
+    1. subplots() -> divide area into rows and columns or in grid.
+    2. plt_tight_layout() -> automatic adjustment.
+    3. savefig() -> function use to save visualization.
+    
